@@ -1,6 +1,7 @@
 # ML-Imdb
 
 ## TODOS:
+- [ ] 15.10.2025 | Confusion Matrix gets 0,0 for non-successes (failures)
 - [ ] Visualizations for overall data: means, stds, z-scores,...
 - [ ] XX_revenue_budget.ipynb: **cleaning data, drop 0.00s**
   - [ ] PLOTTING: annoying domains from 0 to 3
