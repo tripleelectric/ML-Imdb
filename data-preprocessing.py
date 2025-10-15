@@ -33,9 +33,9 @@ columns = [
 
 
 # ------ Remove all rows with missing data ------
-# cleaned = df.dropna()
-# cleaned.to_csv("data/processed/cleaned_full.csv")
-# print(cleaned.count)
+cleaned = df.dropna()
+cleaned.to_csv("data/processed/cleaned_full.csv")
+print(cleaned.shape)
 # >>> 234432
 
 # ------ Cleaned with anticipated relevant columns ------
@@ -58,7 +58,7 @@ relevant_columns = [
     "production_companies",
     "production_countries",
 ]
-cleaned_relevant = df[relevant_columns].dropna()
-cleaned_relevant.reset_index(drop=True)
-cleaned_relevant.to_csv("data/processed/81k_thin_dropped.csv")
-print(cleaned_relevant.shape)
+# cleaned_relevant = df[relevant_columns].dropna()
+# cleaned_relevant.reset_index(drop=True)
+# cleaned_relevant.to_csv("data/processed/81k_thin_dropped.csv")
+# print(cleaned_relevant.shape)
