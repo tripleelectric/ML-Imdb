@@ -9,3 +9,4 @@
   - [ ] Testing of the linear regression model
 - [ ] CHALLENGE: *predict* "taglines", "genre" based on overview
 - [ ] Histogram Production Companies
+- [ ] notebooks/XX_revenue_budget.ipynb: add ESS calculation
