@@ -62,3 +62,9 @@ relevant_columns = [
 # cleaned_relevant.reset_index(drop=True)
 # cleaned_relevant.to_csv("data/processed/81k_thin_dropped.csv")
 # print(cleaned_relevant.shape)
+
+
+def pp_overview_genre(data: pd.DataFrame) -> pd.DataFrame:
+    columns: list = ["title", "overview", "genres"]
+    cleaned: pd.DataFrame = df[columns].dropna().reset_index()
+    return cleaned
