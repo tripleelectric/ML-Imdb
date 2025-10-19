@@ -10,3 +10,4 @@
 - [ ] CHALLENGE: *predict* "taglines", "genre" based on overview
 - [ ] Histogram Production Companies
 - [ ] notebooks/XX_revenue_budget.ipynb: add ESS calculation
+- [ ] Release Date could be interesting
